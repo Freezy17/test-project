@@ -1,0 +1,611 @@
+body {
+	background-image: -webkit-linear-gradient(297deg, #ffffff 82%, #A4A0EA 0%, #C37DFF 80%);
+	background-image: -o-linear-gradient(297deg, #ffffff 82%, #A4A0EA 0%, #C37DFF 80%);
+	background-image: linear-gradient(27deg, #ffffff 82%, #A4A0EA 0%, #C37DFF 80%);
+	background-repeat: repeat-x;
+	opacity: 0.8
+	;
+}
+
+#svg {
+	width: 930px;
+	height: 1100px;
+}
+.logo {
+	width: 398px;
+	height: 125px;
+	background-image: url(images/logo.svg);
+	
+}
+
+h1 {
+	margin:0px 0px 0px 214px;
+	padding-top: 81px;
+	width: 156px;
+	height: 45px;
+	background: -webkit-linear-gradient(41deg, #fff 40%, #fff600 31%, #fff 61%, #fff600 15%, #fff 52%, #fff600 88%, #fff 16%);
+	background: -o-linear-gradient(41deg, #fff 40%, #fff600 31%, #fff 61%, #fff600 15%, #fff 52%, #fff600 88%, #fff 16%);
+	background: linear-gradient(131deg, #fff 40%, #fff600 31%, #fff 61%, #fff600 15%, #fff 52%, #fff600 88%, #fff 16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: Roboto;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+hr{
+	display: inline;
+}
+.button {
+	float: right;
+	background: white;
+	width: 25%;
+	margin-top: 6%;
+	margin-right: 14%;
+	height: 55px;
+	border: 3px #fff solid;
+	box-shadow: -1px 5px 24px 1px rgba(189, 227, 239, 0.75);
+	border-radius: 25px;
+	text-align: center;
+}
+
+#Search {
+	color: #151515;
+	font-family: "Open Sans - Semibold";
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+
+.line{
+	border: 0.1px solid;
+	margin-top: 14px;
+	height: 25px;
+	width: 1px;
+}
+
+#gg {
+	height: 10px;
+	padding-left: 5px;
+}
+
+.dropbutton {
+ 	color: #151515;
+	font-family: "Open Sans - Semibold";
+	font-size: 30px;
+	padding-left: 25px;
+    border: none;
+    background: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    padding-left: 28px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #FFFFFF; 
+	font-size: 25px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	font-size: 25px;
+	text-align: center;
+}
+
+.dropdown:hover .dropbutton {
+
+	text-align: center;
+}
+
+.object p {
+	display: none;
+}
+.object {
+	height: 14px;
+	width: 14px;
+	border: 6px solid #ffffff;
+	border-radius: 11px;
+	margin-top: 190px;
+	margin-left: 851px; 
+	opacity: 0.5;
+}
+
+.text {
+	display: inline;
+	float: right;
+	padding-right: 615px;
+	width: 300px;
+	height: 400px; 
+} 
+.text p{
+	font-size: 50px;
+	color: #FFFFFF
+}
+
+h2{
+	color: white;
+	font-family: Roboto;
+	font-size: 115px;
+	height: 160px;
+}
+h2::first-line {
+    color: #000000;
+}
+.text p:before {
+	content: "25% ";
+	color: #fbf934;
+}
+
+#details {
+	float: right;
+	background-color: #fcfcfc;
+	font-family: "Open Sans - Semibold";
+	font-size: 35px;
+	width: 202px;
+	height: 45px;
+	padding-top: 0px;
+	margin-top: 55px;
+	margin-right: 105px;
+	box-shadow: -1px 5px 24px 1px rgba(189, 227, 239, 0.75);
+	border-radius: 25px;
+	text-align: center;
+}
+
+.object_2 p {
+	display: none;
+}
+
+.object_2 {
+	height: 31px;
+	width: 31px;
+	border: 8px solid #ffffff;
+	border-radius: 5px;
+	margin-top: 520px;
+	margin-left: 1700px;
+	transform: rotate(-30deg);
+}
+
+.women_bags{
+	margin-top: 350px;
+	border: 0px solid #F3F3F3;
+	box-shadow: 0px 0px 48px 3px rgba(237, 235, 253, 0.75);
+	width: 90%;
+	height: 1500px;
+	overflow: hidden;
+}
+
+.women_bags h2{
+	text-align: center;
+}
+
+.women_bag{
+	display: inline-block;
+	margin: 50px 50px;
+	padding: 0px 30px;
+	width: 300px;
+	height: 455px;
+}
+
+.like {
+	height: 18px;
+	width: 20px;
+	float: left;
+	margin: 30px 10px 0px 0px;
+	color: red;
+}
+
+.likes {
+	float: left;
+	padding: 15px 0px 0px 0px;
+}
+
+.comments {
+	float: right;
+	padding: 15px 0px 0px 0px;
+}
+
+.comment {
+	height: 21px;
+	width: 25px;
+	float: right;
+	margin: 30px 10px 0px 10px;
+}
+
+.status {
+	width: 100%;
+	height: 75px;
+	opacity: 0;
+}
+.women_bag_img{
+	width: 200px;
+	height: 250px
+}
+
+.info_bag {
+	display: block;
+	width: 100%;
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-align: center;
+}
+
+.price {
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	text-align: center;
+}
+.buy_button {
+	width: 120px;
+	height: 25px;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	text-decoration: none;
+	font-size: 25px;
+	box-shadow: -1px 5px 24px 1px rgba(240, 239, 254, 0.99);
+	background-color: #fcfcfc;
+	background-image: linear-gradient(26deg, #8c84f9 28%, #a165f4 50%);
+	padding: 15px;
+	border-radius: 35px;
+	opacity: 0;
+}
+
+.women_bag:hover .price {
+	color: #8c84f9;
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.women_bag:hover .status{
+	opacity: 1;
+}
+
+.women_bag:hover .buy_button{
+	opacity: 1;
+}
+
+.women_bag:hover {
+	box-shadow: -1px 5px 48px 3px rgba(221, 223, 224, 0.75);
+}
+
+.iphone {
+	float: right;
+	margin: 0px 300px 0px 0px;
+	width: 540px;
+	height: 805px;
+}
+
+.text_1 {
+	float: left;
+	width: 512px;
+	height: 236px;
+	margin: 258px 0px 30px 350px;
+}
+
+.text_1 h2{
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 50px;
+	height: 60px;
+	margin: 0px 0px 30px 0px;
+}
+
+.text_1 h3{
+
+	font-family: "Open Sans";
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0px;
+}
+
+.text_1 h3:after{
+	content: " Classic Shoes";
+	font-family: "Open Sans";
+	font-size: 25px;
+	font-weight: 400;
+	color: #8d83f9;
+}
+
+.text_1 р4{
+	color: #888888;
+	font-size: 20px;
+}
+
+.showcase {
+	margin: 900px 2% 0px 2%;
+	box-shadow: -1px 5px 48px 3px rgba(237, 235, 253, 0.75);
+	text-align: center;
+	height: 1500px;
+	overflow: hidden;
+}
+
+.tabs {
+	border: 1px solid;
+	box-shadow: -1px 5px 48px 3px rgba(239, 239, 240, 0.75);
+}
+
+
+.tabs p{
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.watches #watch_1,#watch_2,#watch_3,#watch_4,#watch_5,#watch_6{
+	width: 226px;
+	height: 245px;
+	padding: 0px 39px 0px 39px;
+}
+.watch_1, .watch_2, .watch_3, .watch_4, .watch_5, .watch_6 {
+  display: inline-block;
+  height: 505px;
+  width: 330px;
+  margin: 5%; 
+}
+
+.info_watch {
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-align: center;
+}
+
+.watches div:hover {
+	outline: 0px solid;
+	box-shadow: -1px 5px 48px 3px rgba(221, 223, 224, 0.99);
+}
+
+.watches div:hover .price {
+	color: #8c84f9;
+	font-family: "Open Sans - Semibold";
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.watch_1:hover .buy_button, .watch_2:hover .buy_button , .watch_3:hover .buy_button , .watch_4:hover .buy_button, .watch_5:hover .buy_button, .watch_6:hover .buy_button {
+	display: block;
+}
+
+.Fashion_js-tab-content, .Furnitures_js-tab-content, .Mobile_js-tab-content, .Cloth_js-tab-content, .Toys_js-tab-content {
+	display: none;
+}
+
+.Fashion_js-tab-content, .Furnitures_js-tab-content, .Watches_js-tab-content, .Mobile_js-tab-content, .Cloth_js-tab-content, .Toys_js-tab-content {
+	display: none;
+}
+
+.tabs {
+   width: 100%;
+   height: 1000px;
+}
+
+
+.tab-header {
+	border: 0px solid;
+	width: 1500px;
+	box-shadow: -1px 5px 48px 3px rgba(239, 239, 240, 0.99);
+   	margin: 0;
+}
+
+
+.tab-header__item {
+	display: inline-block;
+	margin: 10px 30px;
+	padding: 15px 40px;
+	cursor: pointer;
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+.tab-header__item.active {
+	text-shadow: -2px 9px 5px rgba(213, 200, 247, 0.99);
+	color: #b394fa;
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	font-weight: 400;
+  	border-bottom: none;
+  	position: relative;
+
+}
+
+
+.tab-content {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+
+.tab-content__item {
+   display: none;
+   margin-top: -1px;
+}
+
+
+.tab-content__item.active {
+   display: block;
+}
+
+.showcase {
+	margin-top: 1000px;
+	border: 0px solid #F3F3F3;
+	box-shadow: 0px 0px 48px 3px rgba(237, 235, 253, 0.99);
+	width: 90%;
+	height: 1550px;
+	overflow: hidden;
+}
+
+.watch{
+	display: inline-block;
+	margin: 50px 50px;
+	padding: 0px 30px;
+	width: 300px;
+	height: 455px;
+}
+
+.status {
+	width: 100%;
+	height: 75px;
+	opacity: 0;
+}
+.watch_img{
+	width: 200px;
+	height: 250px
+}
+
+.info_watch {
+	display: block;
+	width: 100%;
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-align: center;
+}
+
+.price {
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	text-align: center;
+}
+
+.watch:hover .price {
+	color: #8c84f9;
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.watch:hover .status{
+	opacity: 1;
+}
+
+.watch:hover .buy_button{
+	opacity: 1;
+}
+
+.watch:hover {
+	box-shadow: -1px 5px 48px 3px rgba(221, 223, 224, 0.75);
+}
+
+.feedback {
+	background-image: -webkit-linear-gradient(297deg, #8c84f9 10%, #a165f4 60%);
+	background-image: -o-linear-gradient(297deg, #8c84f9 10%, #a165f4 60%);
+	background-image: linear-gradient(27deg, #8c84f9 10%, #a165f4 60%);
+	height: 500px;
+	margin-top: -15px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-top: 60px;
+}
+
+.background-img {
+	width: 960px;
+	height: 125px;
+	background-repeat: repeat-x; 
+	background-image: url(images/text_3.svg) 
+}
+
+.background-text {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 50px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+.feedback-form {
+	display: inline-block;
+	height: 110px;
+	width: 900px;
+	padding: 30px 0px 30px 0px;
+}
+.email {
+	height: 70px;
+	width: 800px;
+	margin: 5px;
+	border-radius: 35px;
+	border: none;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	padding: 0px 0px 0px 20px;
+}
+
+.button-feedback {
+	height: 56px;
+	width: 160px;
+	margin: 5px;
+	border-radius: 95px;
+	border: none;
+	background-image: -webkit-linear-gradient(297deg, #8c84f9 18%, #9c6cf5 58%);
+	background-image: -o-linear-gradient(297deg, #8c84f9 18%, #9c6cf5 58%);
+	background-image: linear-gradient(27deg, #8c84f9 18%, #9c6cf5 58%);
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px -176px;
+}
+
+.nav {
+	margin-top: 100px;
+}
+.big-shop {
+	padding-top: 100px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.navigation {
+	color: black;
+	margin: 50px 30px 0px 30px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.social-network {
+	margin: 50px;
+	height: 53px;
+	width: 53px;
+	box-shadow: -2px 8px 19px 1px rgba(207, 207, 208, 0.99);
+	border-radius: 50px;
+}
+.social-network:hover {
+	color: white;
+	background-image: linear-gradient(27deg, #8c84f9 24%, #9b6df5 66%);
+	border-radius: 50px;
+}
+
+address{
+	height: 10px;
+	margin: 0% -1% 0% -1%;
+	padding: 25px 0px; 
+	font-style: initial;
+	background-color: #ECECEC;
+}
